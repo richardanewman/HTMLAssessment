@@ -2,24 +2,84 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
     <title></title>
   </head>
   <body>
     <h2>TEXT</h2>
-    <p><strong>Lorem</strong> Ipsum...</p>
-    <p><strong>Lorem</strong></p>
-    <p><strong>Lorem</strong></p>
+    <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut erat nec ipsum aliquet rutrum. Proin turpis nulla, aliquet nec aliquet sed, pharetra eget dolor. Pellentesque et auctor metus, id tempor velit. In eros ligula, tincidunt nec magna vel, porttitor laoreet dolor. Pellentesque volutpat nibh sollicitudin vulputate rhoncus. Donec purus ex, facilisis nec congue blandit, malesuada a nulla. Donec tristique tincidunt justo. Vestibulum consequat augue eget elit efficitur, sodales auctor sem sagittis. Maecenas et semper nulla, eget commodo ante.</p>
+    <blockquote cite="https://www.lipsum.com/feed/html">
+      <p><em><strong>Aenean</strong> posuere purus aliquam, sagittis ligula sed, malesuada lectus. Donec eu ultrices erat, in facilisis nunc. Integer fermentum semper enim sed rutrum. Phasellus tincidunt enim id accumsan pretium. Morbi rutrum tortor id posuere luctus. Donec in diam sit amet diam dictum consectetur pulvinar eget odio. Etiam ullamcorper massa sit amet mollis interdum. Maecenas justo sapien, fringilla ac tortor vel, aliquet cursus tortor. Nulla molestie metus eu dolor rhoncus facilisis. Vestibulum ultricies pellentesque urna quis mattis. Nam molestie purus nisi, nec fringilla ligula dictum feugiat.</em></p>
+    </blockquote>
+    <p><strong>Vivamus</strong> id sem nulla. Curabitur finibus eros ut neque placerat pellentesque. Aenean at ante nec nisi condimentum posuere et vitae quam. Sed sagittis consectetur mattis. Pellentesque sit amet est at lacus gravida placerat. Nulla eget luctus nunc. Pellentesque aliquet metus et egestas maximus. Cras congue ullamcorper blandit. Pellentesque et sollicitudin ipsum, at dictum nisi. Pellentesque commodo bibendum sapien. Pellentesque at est et nisi mollis sollicitudin et vel nibh. Ut varius vestibulum consequat. Duis quis dui orci. Maecenas condimentum dolor lectus, at dapibus nisi blandit sed.</p>
 
     <h2>TABLE</h2>
     <table>
       <thead>
-
+        <tr>
+          <th rowspan="2">Team Name</th>
+          <th colspan="2">First Half</th>
+          <th colspan="2">Second Half</th>
+            <th rowspan="2">Final</th>
+        </tr>
+        <tr>
+          <td>Q1</td>
+          <td>Q2</td>
+          <td>Q3</td>
+          <td>Q4</td>
+        </tr>
       </thead>
       <tbody>
-        
+        <tr>
+          <td>Denver</td>
+          <td>7</td>
+          <td>3</td>
+          <td>0</td>
+          <td>7</td>
+          <td>17</td>
+        </tr>
+        <tr>
+          <td>Chicago</td>
+          <td>0</td>
+          <td>6</td>
+          <td>3</td>
+          <td>6</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <tfoot>
+            <th>Total</th>
+            <th>7</th>
+            <th>9</th>
+            <th>3</th>
+            <th>13</th>
+            <th>32</th>
+          </tfoot>
+        </tr>
+
       </tbody>
     </table>
     <h2>LIST</h2>
+      <ul>
+        <img class="img" src="images/broncos.png">
+        <li>Denver Broncos</li>
+        <li>Coach: Vic Fangio</li>
+        <li>QB</li>
+        <ol>
+          <li>Joe Flacco</li>
+          <li>Brandon Allen</li>
+        </ol>
+      </ul>
+      <ul>
+        <img class="img" src="images/bears.png">
+        <li>Chicago Bears</li>
+        <li>Coach: Matt Nagy</li>
+        <li>QB</li>
+        <ol>
+          <li>Mitchell Trubisky</li>
+          <li>Chase Daniel</li>
+        </ol>
+      </ul>
     <h2>FORM</h2>
 
   </body>
