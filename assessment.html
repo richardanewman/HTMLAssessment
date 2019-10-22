@@ -61,8 +61,8 @@
     </table>
     <h2>LIST</h2>
       <ul>
-        <img class="img" src="images/broncos.png">
-        <li>Denver Broncos</li>
+        <a href="https://www.denverbroncos.com/" target="_blank"><img class="img" src="images/broncos.png">
+        <li>Denver Broncos</li></a>
         <li>Coach: Vic Fangio</li>
         <li>QB</li>
         <ol>
@@ -71,8 +71,8 @@
         </ol>
       </ul>
       <ul>
-        <img class="img" src="images/bears.png">
-        <li>Chicago Bears</li>
+        <a href="https://www.chicagobears.com/" target="_blank"><img class="img" src="images/bears.png">
+        <li>Chicago Bears</li></a>
         <li>Coach: Matt Nagy</li>
         <li>QB</li>
         <ol>
@@ -81,6 +81,24 @@
         </ol>
       </ul>
     <h2>FORM</h2>
-
+      <form action="assessment.html">
+        <input type="text" name="firstName" placeholder="First Name">
+        <input type="text" name="lastName" placeholder="Last Name"><br>
+        Favorite Sport:<br>
+        <select name="favoriteSport">
+          <option value="football">Football</option>
+          <option value="baseball">Baseball</option>
+          <option value="basketball">Basketball</option>
+          <option value="hockey">Hockey</option>
+          <option value="soccer">Soccer</option>
+          <option value="other">Other</option>
+        </select><br>
+        I have: <input type="checkbox" value="attended">Attended <input type="checkbox" value="played">Played
+        <input type="checkbox" value="coached">Coached <input type="checkbox" value="betOn">Bet on this sport.<br>
+        For this sport I prefer the: <input type="radio" name="preference" value="amateur">Amateur
+        <input type="radio" name="preference" value="college">College
+        <input type="radio" name="preference" value="professional">Professional<br>
+        <input type="submit" value="Submit Query">
+      </form>
   </body>
 </html>
